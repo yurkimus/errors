@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "@yurkimus/errors",
+  "version": "0.0.1",
+  "author": "yurkimus <yurkimus@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yurkimus/errors.git"
+  },
+  "exports": {
+    "types": "./source/index.d.ts",
+    "import": "./source/index.js"
+  },
+  "dependencies": {
+    "@yurkimus/abort-error": "latest",
+    "@yurkimus/authorization-error": "latest",
+    "@yurkimus/response-error": "latest"
+  }
+}

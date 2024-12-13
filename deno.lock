@@ -1,0 +1,33 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@yurkimus/abort-error@latest": "0.0.1",
+    "npm:@yurkimus/authorization-error@latest": "0.0.1",
+    "npm:@yurkimus/response-error@latest": "0.0.1"
+  },
+  "npm": {
+    "@yurkimus/abort-error@0.0.1": {
+      "integrity": "sha512-UCHVrflMehkhDmbL1BSqYouuBABUWYycOvUoqVd22V868ivQa8/vR7A6Y09UZoPYNIXK+ZWomiHbXdaG8DV58g=="
+    },
+    "@yurkimus/authorization-error@0.0.1": {
+      "integrity": "sha512-TU5JkCXFCR0i4m9fb5NqPejwrpN2/zBSMMx/DkaaNKWZAcRKVwcz18Qk6JcCgowBNhy5UyhC0uIIoKaIywkNhg=="
+    },
+    "@yurkimus/response-error@0.0.1": {
+      "integrity": "sha512-7C9PJJkDZyglhcZ5aUidVBZKLv29ifSF5cEyGRcrTPkpaem1KqBtVPDm57aqA1KJWsEQni3QR63TeIJCLCQEuw=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@yurkimus/abort-error@latest",
+      "npm:@yurkimus/authorization-error@latest",
+      "npm:@yurkimus/response-error@latest"
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@yurkimus/abort-error@latest",
+        "npm:@yurkimus/authorization-error@latest",
+        "npm:@yurkimus/response-error@latest"
+      ]
+    }
+  }
+}
