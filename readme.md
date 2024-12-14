@@ -25,5 +25,5 @@ import '@yurkimus/errors/authorization'
 ```
 
 ```js
-import '@yurkimus/errors/response'
+import '@yurkimus/errors/request'
 ```
