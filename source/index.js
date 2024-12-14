@@ -1,3 +1,3 @@
-import '@yurkimus/abort-error'
-import '@yurkimus/authorization-error'
-import '@yurkimus/response-error'
+import 'source/prototypes/abort.js'
+import 'source/prototypes/authorization.js'
+import 'source/prototypes/request.js'

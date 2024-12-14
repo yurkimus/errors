@@ -10,11 +10,7 @@ help:
 	@echo "\nAvailable Commands:"
 	@echo ""
 	@echo "  $(Bold)$(Green)npm$(Reset)    install npm dependencies."
-	@echo "  $(Bold)$(Green)deno$(Reset)   install deno dependencies."
 	@echo ""
 
 npm:
 	npm install --save-exact
-
-deno:
-	deno install --reload --entrypoint source/*
