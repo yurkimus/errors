@@ -9,8 +9,8 @@ Reset := \033[0m
 help:
 	@echo "\nAvailable Commands:"
 	@echo ""
-	@echo "  $(Bold)$(Green)npm$(Reset)    install npm dependencies."
+	@echo "  $(Bold)$(Green)install$(Reset)    install dependencies."
 	@echo ""
 
-npm:
+install:
 	npm install --save-exact

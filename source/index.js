@@ -1,3 +1,3 @@
-import 'source/prototypes/abort.js'
-import 'source/prototypes/authorization.js'
-import 'source/prototypes/request.js'
+import './prototypes/abort.js'
+import './prototypes/authorization.js'
+import './prototypes/request.js'
