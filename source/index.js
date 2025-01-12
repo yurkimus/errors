@@ -1,2 +1,2 @@
-import './prototypes/abort.js'
-import './prototypes/message.js'
+export * from './prototypes/abort.js'
+export * from './prototypes/message.js'
