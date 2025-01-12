@@ -1,7 +1,4 @@
-if (globalThis.AbortError !== AbortError)
-  globalThis.AbortError = AbortError
-
-function AbortError(message) {
+export function AbortError(message) {
   if (!(this instanceof AbortError))
     return new AbortError(message)
 

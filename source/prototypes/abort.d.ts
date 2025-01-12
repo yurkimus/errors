@@ -9,4 +9,4 @@ interface AbortErrorConstructor {
   prototype: AbortError
 }
 
-declare var AbortError: AbortErrorConstructor
+export var AbortError: AbortErrorConstructor
