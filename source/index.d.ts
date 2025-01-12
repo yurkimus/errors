@@ -1,2 +1,2 @@
-/// <reference path="./prototypes/abort.d.ts" />
-/// <reference path="./prototypes/message.d.ts" />
+export * from './prototypes/abort.d.ts'
+export * from './prototypes/message.d.ts'
