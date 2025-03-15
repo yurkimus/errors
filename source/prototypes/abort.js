@@ -7,11 +7,6 @@ export function AbortError(message) {
   this.name = error.name = 'AbortError'
   this.message = error.message
   this.stack = error.stack
-
-  Reflect.setPrototypeOf(
-    this,
-    AbortError.prototype,
-  )
 }
 
 AbortError.prototype[Symbol.toStringTag] = 'AbortError'

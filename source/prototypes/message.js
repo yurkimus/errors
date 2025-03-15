@@ -8,11 +8,6 @@ export function MessageError(message, status) {
   this.message = error.message
   this.stack = error.stack
   this.status = status
-
-  Reflect.setPrototypeOf(
-    this,
-    MessageError.prototype,
-  )
 }
 
 MessageError.prototype[Symbol.toStringTag] = 'MessageError'
